@@ -7,7 +7,7 @@ class ShoppingCart:
         return self.total
 
     def add_new_product(self, product):
-        self.products += product
+        self.products.append(product)
 
     def empty_all_products(self):
         del self.products
